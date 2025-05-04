@@ -59,7 +59,6 @@ def main():
     if st.button('Submit'):        
         price_predict = loaded_model.predict(input_data)
         price_predict = format(price_predict[0],",")
-
         if source_city == destination_city:
             price_predict = 'Destination and Origin cannot be the same.'
         
