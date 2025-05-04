@@ -62,7 +62,7 @@ def main():
         
     st.success(price_predict)
     
-    st.page_link('https//www.hdbpriceai.com',label = 'Preduct Singapore HDB Price',icon = '🏠')
+    st.page_link('https//www.hdbpriceai.com/',label = 'Preduct Singapore HDB Price',icon = '🏠')
 
 if __name__ == "__main__":
     main()
