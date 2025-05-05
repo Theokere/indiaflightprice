@@ -17,8 +17,6 @@ loaded_encoder = pickle.load(open("trained_encoder.sav",'rb'))
 columns = ['airline','source_city','departure_time','stops','arrival_time','destination_city','class','duration','days_left']
 
 
-    
-
 def main():
     
     st.title(':small_airplane: Predict Flight Prices in India Top 6 Metro Cities')
@@ -64,7 +62,7 @@ def main():
         
     st.success(price_predict)
     
-    st.page_link('https://hdbpriceai.com/',label = 'Preduct Singapore HDB Price',icon = '🏠')
+    st.page_link('https://hdbpriceai.com/',label = 'Predict Singapore HDB Price',icon = '🏠')
 
 if __name__ == "__main__":
     main()
